@@ -1,7 +1,7 @@
 # Dockerize
 
 **docker build -t bnaya/calc-app:v1 . **  
-docker run -it --rm --name bnaya-calc -p 8080:8080 -v c:/Users/Bnaya/go/src/github.com/bnayae/web-app-dockerized:/go/src/calc -w /go/src/calc bnaya/calc-app:v1
+docker run -it --rm --name bnaya-calc -p 8080:8080 -v c:/Users/Bnaya/go/src/github.com/bnayae/go-web-docker-playground:/go/src/calc -w /go/src/calc bnaya/calc-app:v1
 
 - The docker run command is used to run a container from an image,
 - The -it flag starts the container in an interactive mode,
